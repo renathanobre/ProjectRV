@@ -1,0 +1,22 @@
+{
+  "reporter": "mochawesome",
+  "reporterOptions": {
+   "charts": true,
+   "overwrite": false,
+   "html": true,
+   "json": false,
+   "reportDir": "cypress/report/mochawesome-report"},
+
+  "env":
+  {
+     "url":"https://app-staging.food.ee/team-order/8lW9umVBhBBcTGor",
+     "fullName":"Joe Gaudet",
+     "email":"joe.gaudete@food.ee",
+     "phoneNumber":"7789944846",
+     "department":"Accounting",
+     "textareaAllergy": "No allergies to be informed "
+
+
+
+  }
+}
