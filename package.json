@@ -15,5 +15,13 @@
     "mochawesome": "^7.1.1",
     "mochawesome-merge": "^4.2.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renathanobre/ProjectRV.git"
+  },
+  "bugs": {
+    "url": "https://github.com/renathanobre/ProjectRV/issues"
+  },
+  "homepage": "https://github.com/renathanobre/ProjectRV#readme",
   "description": ""
 }
