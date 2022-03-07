@@ -17,6 +17,8 @@ it ('Providing User Details', function(){
     cy.get('#ember301').type(Cypress.env('email'));
     cy.get('.fde-phone-number-control_input').type(Cypress.env('phoneNumber'));
     cy.get('#ember309').type(Cypress.env('department'));
+    cy.get('#ember312 > #ember312-checkbox').not('[disabled]').check({force: true} ).should('be.checked');
+    cy.get('#ember313 > #ember313-checkbox').not('[disabled]').check({force: true} ).should('be.checked')
     cy.get('#ember314').click();
 });
 
