@@ -24,17 +24,20 @@ it ('Providing User Details', function(){
 
 it ('Adding Items', function(){
     cy.get(':nth-child(2) > .fde-menu-section_content > .fde-menu-section_items > :nth-child(1) > .fde-restaurant-menu-item > .fde-restaurant-menu-item_header > .fde-restaurant-menu-item_title').click();
+    cy.get('[data-test-ff-control-checkbox-select-input="0"]').not('[disabled]').check({force: true} ).should('be.checked');
+    cy.get('[data-test-ff-control-checkbox-select-input="1"]').not('[disabled]').check({force: true} ).should('be.checked');
+    cy.get('[data-test-ff-control-checkbox-select-input="4"]').not('[disabled]').check({force: true} ).should('be.checked');
     cy.get('textarea').type(Cypress.env('textareaAllergy'));
     cy.get('[data-test-order-item-options-modal-add-modify-button]').click();
 
 });
 
 it('Checking out',function(){
-    cy.get('[data-test-checkout-button]').click();
-    cy.get('[data-test-form-button').click();
+   cy.get('[data-test-checkout-button]').click();
+   cy.get('[data-test-form-button').click();
 });
 
 it ('Checking out - Validation', function(){
-    cy.get('.rd-h1').should('have.class','rd-h1 fde-order-confirmation_title rd-mb-16');
-    cy.get('.fde-order-confirmation_information').should('have.class', 'fde-order-confirmation_information rd-lead-paragraph');
+   cy.get('.rd-h1').should('have.class','rd-h1 fde-order-confirmation_title rd-mb-16');
+   cy.get('.fde-order-confirmation_information').should('have.class', 'fde-order-confirmation_information rd-lead-paragraph');
 });
