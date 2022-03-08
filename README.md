@@ -1,4 +1,4 @@
-# my  QA DEV Test project
+# My  QA DEV Test Project
 ![cypress-io-logo-social-share](https://user-images.githubusercontent.com/23301330/54577563-82939c00-49b9-11e9-9cca-95c70bec845a.png)
 
 - ***IMPORTANT NOTES***
