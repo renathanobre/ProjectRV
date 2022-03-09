@@ -1,0 +1,12 @@
+cypress/report/mochawesome-report/mochawesome.html
+cypress/report/mochawesome-report/mochawesome_001.html
+cypress/report/mochawesome-report/assets/app.css
+cypress/report/mochawesome-report/assets/app.js
+cypress/report/mochawesome-report/assets/app.js.LICENSE.txt
+cypress/report/mochawesome-report/assets/MaterialIcons-Regular.woff
+cypress/report/mochawesome-report/assets/MaterialIcons-Regular.woff2
+cypress/report/mochawesome-report/assets/roboto-light-webfont.woff
+cypress/report/mochawesome-report/assets/roboto-light-webfont.woff2
+cypress/report/mochawesome-report/assets/roboto-medium-webfont.woff
+cypress/report/
+cypress/videos/
