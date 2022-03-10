@@ -17,11 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/renathanobre/ProjectRV.git"
+    "url": "git+https://github.com/renathanobre/cypressRV.git"
   },
   "bugs": {
-    "url": "https://github.com/renathanobre/ProjectRV/issues"
+    "url": "https://github.com/renathanobre/cypressRV/issues"
   },
-  "homepage": "https://github.com/renathanobre/ProjectRV#readme",
+  "homepage": "https://github.com/renathanobre/cypressRV#readme",
   "description": "![cypress-io-logo-social-share](https://user-images.githubusercontent.com/23301330/54577563-82939c00-49b9-11e9-9cca-95c70bec845a.png)"
 }
